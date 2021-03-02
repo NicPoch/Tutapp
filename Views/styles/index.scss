@@ -49,13 +49,24 @@ body
             }
         }
     }
-    main
+    #main
     {
+        display: inline-block;
         margin: 0 5% 0 5%;
         .row
         {
             align-items: center;
             text-align: center;
+            .carousel
+            {
+                max-width: 100%;
+
+            }
         }
+    }
+    #footer
+    {
+        padding-top: 5vw;
+        display: inline-block;
     }
 }

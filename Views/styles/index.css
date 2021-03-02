@@ -37,10 +37,18 @@ body header nav ul a {
   font-size: 1.5em;
   color: #1D1B59;
 }
-body main {
+body #main {
+  display: inline-block;
   margin: 0 5% 0 5%;
 }
-body main .row {
+body #main .row {
   align-items: center;
   text-align: center;
+}
+body #main .row .carousel {
+  max-width: 100%;
+}
+body #footer {
+  padding-top: 5vw;
+  display: inline-block;
 }
