@@ -65,16 +65,29 @@ body #main #universidades {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: auto;
 }
-body #main #rowComentarios {
+body #main #universidades #universidadesCarousel {
   display: inline-block;
-  padding-top: 5vw;
+  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+body #main #universidades #universidadesCarousel img {
+  max-width: 100%;
+}
+body #main #comentarios {
+  text-align: center;
+  display: inline-block;
   justify-content: center;
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 3vw;
+  justify-content: center;
 }
-body #footer {
-  padding-top: 5vw;
-  display: inline-block;
+body #main #comentarios h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: inherit;
 }

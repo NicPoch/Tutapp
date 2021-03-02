@@ -79,22 +79,35 @@ body
             text-align: center;
             margin-left: 25%;
             margin-right: 25%;
-            
+            margin-top: auto;
+            #universidadesCarousel
+            {
+                display: inline-block;
+                max-width: 100%;
+                text-align: center;
+                justify-content: center;
+                img
+                {
+                    max-width: 100%;
+                }
+            }
         }
-        #rowComentarios
+        #comentarios
         {
+            text-align: center;
             display: inline-block;
-            padding-top: 5vw;
             justify-content: center;
             text-align: center;
             margin-left: 25%;
             margin-right: 25%;
-            
+            margin-top: 3vw;
+            justify-content: center;
+            h2
+            {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                margin: inherit;
+            }
         }
-    }
-    #footer
-    {
-        padding-top: 5vw;
-        display: inline-block;
     }
 }
