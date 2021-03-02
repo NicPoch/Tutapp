@@ -40,6 +40,6 @@ body header nav ul a {
 body main {
   margin: 0 5% 0 5%;
 }
-body main #QuienesSomos {
+body main section #QuienesSomos {
   text-align: center;
 }
