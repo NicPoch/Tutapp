@@ -66,11 +66,18 @@ body header nav ul a:hover {
   text-decoration: none;
   color: #1D1B59;
 }
-body #clases {
+body #main {
+  display: block;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+body #main #clases {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vw;
 }
-body #TablaClases {
+body #main #TablaClases {
   background-color: #762EA6;
 }

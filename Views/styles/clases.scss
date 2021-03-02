@@ -80,14 +80,22 @@ body
             }
         }
     }
-    #clases
+    #main
     {
+        display: block;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5vw;
-    }   
-    #TablaClases
-    {
-        background-color: $Logo-Gigapack-2-hex;
+        #clases
+        {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5vw;
+        }   
+        #TablaClases
+        {
+            background-color: $Logo-Gigapack-2-hex;
+        }
     }
 }
