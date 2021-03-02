@@ -11,15 +11,17 @@ body
     display: inline-block;
     font-family: "didot" "helvetica";
     background-color: $Logo-Gigapack-5-hex;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    justify-content: center;
     header
     {
         text-align: center;
         display: inline-block;
         padding: 0 0 2vw 0;
-        margin: 0 0 0.5vw 0;    
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:0.5vw;    
         h1
         {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,16 +82,18 @@ body
     }
     #main
     {
-        display: inline-block;
+        display: block;
         padding-top: 5vw;
         padding-bottom: 5vw;
+        margin-left: auto;
+        margin-right: auto;
         #universidades
         {
-            display: inline-block;
+            display: block;
             justify-content: center;
             text-align: center;
-            margin-left: 25%;
-            margin-right: 25%;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: auto;
             #universidadesCarousel
             {
@@ -99,29 +103,32 @@ body
                 justify-content: center;
                 img
                 {
-                    max-width: 100%;
+                    max-width: 90%;
                 }
             }
         }
         #comentarios
         {
             text-align: center;
-            display: inline-block;
+            display: block;
             justify-content: center;
             text-align: center;
-            margin-left: 25%;
-            margin-right: 25%;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 3vw;
-            justify-content: center;
+            
             h2
             {
+                margin-left: auto;
+                margin-right: auto;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 text-align: center;
-                margin: inherit;
             }
             #comentariosCarousel
             {
-                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
                 font-size: larger;
                 max-width: 100%;
                 text-align: center;
@@ -132,11 +139,11 @@ body
         #clases
         {
             text-align: center;
-            display: inline-block;
+            display: block;
             justify-content: center;
             text-align: center;
-            margin-left: 25%;
-            margin-right: 25%;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 3vw;
             justify-content: center;
             h2
@@ -151,11 +158,11 @@ body
     #footer
     {
         text-align: center;
-        display: inline-block;
+        display: block;
         justify-content: center;
         text-align: center;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 3vw;
         justify-content: center;
         h2

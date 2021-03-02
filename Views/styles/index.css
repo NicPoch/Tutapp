@@ -5,15 +5,17 @@ body {
   display: inline-block;
   font-family: "didot" "helvetica";
   background-color: #6A36D9;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
-  justify-content: center;
 }
 body header {
   text-align: center;
   display: inline-block;
   padding: 0 0 2vw 0;
-  margin: 0 0 0.5vw 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5vw;
 }
 body header h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -65,16 +67,18 @@ body header nav ul a:hover {
   color: #1D1B59;
 }
 body #main {
-  display: inline-block;
+  display: block;
   padding-top: 5vw;
   padding-bottom: 5vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 body #main #universidades {
-  display: inline-block;
+  display: block;
   justify-content: center;
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: auto;
 }
 body #main #universidades #universidadesCarousel {
@@ -84,25 +88,27 @@ body #main #universidades #universidadesCarousel {
   justify-content: center;
 }
 body #main #universidades #universidadesCarousel img {
-  max-width: 100%;
+  max-width: 90%;
 }
 body #main #comentarios {
   text-align: center;
-  display: inline-block;
+  display: block;
   justify-content: center;
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 3vw;
-  justify-content: center;
 }
 body #main #comentarios h2 {
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  margin: inherit;
 }
 body #main #comentarios #comentariosCarousel {
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   font-size: larger;
   max-width: 100%;
   text-align: center;
@@ -111,11 +117,11 @@ body #main #comentarios #comentariosCarousel {
 }
 body #main #clases {
   text-align: center;
-  display: inline-block;
+  display: block;
   justify-content: center;
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 3vw;
   justify-content: center;
 }
@@ -126,11 +132,11 @@ body #main #clases h2 {
 }
 body #footer {
   text-align: center;
-  display: inline-block;
+  display: block;
   justify-content: center;
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 3vw;
   justify-content: center;
 }
