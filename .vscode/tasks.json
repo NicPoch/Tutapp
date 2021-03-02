@@ -40,7 +40,7 @@
             "group": "build"
         },
         {
-            "label": "Sass Compiler6",
+            "label": "Sass Compiler7",
             "type": "shell",
             "command": "sass --no-source-map --watch ./Views/styles/universidades.scss ./Views/styles/universidades.css",
             "group": "build"

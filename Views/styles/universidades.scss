@@ -1,0 +1,88 @@
+/* Color Theme Swatches in Hex */
+$Logo-Gigapack-1-hex: #8836BF;
+$Logo-Gigapack-2-hex: #762EA6;
+$Logo-Gigapack-3-hex: #5B2A8C;
+$Logo-Gigapack-4-hex: #A993BF;
+$Logo-Gigapack-5-hex: #6A36D9;
+body
+{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-family: "didot" "helvetica";
+    background-color: $Logo-Gigapack-5-hex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    header
+    {
+        text-align: center;
+        display: inline-block;
+        padding: 0 0 2vw 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:0.5vw;    
+        h1
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            background-color: $Logo-Gigapack-3-hex;
+            margin-bottom: 0;
+        }
+        img
+        {
+            max-width: 100%;
+            max-height: fit-content;
+            width: 100vw;
+            height: 30vw;
+            object-fit: cover;
+        }
+        nav
+        {
+            margin-top: 0;
+            background-color:$Logo-Gigapack-4-hex;
+            ul
+            {
+                background-color: inherit;
+                width: 100%;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li
+                {   
+                    padding-left: 3vw;
+                    padding-right: 3vw;
+                    display: inline-block;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: larger;
+                }
+                li:hover
+                {
+                    background-color: $Logo-Gigapack-3-hex;
+                    padding-left: 3vw;
+                    padding-right: 3vw;
+                    margin: 0;
+                    display: inline-block;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: larger;
+                }
+                a
+                {
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: #1D1B59;
+                }
+                a:hover
+                {
+                    text-decoration: none;
+                    color: #1D1B59;
+                }
+            }
+        }
+    }
+    #universidades
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}

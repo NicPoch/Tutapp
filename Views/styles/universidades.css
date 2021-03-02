@@ -1,0 +1,72 @@
+/* Color Theme Swatches in Hex */
+body {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-family: "didot" "helvetica";
+  background-color: #6A36D9;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+body header {
+  text-align: center;
+  display: inline-block;
+  padding: 0 0 2vw 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5vw;
+}
+body header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  background-color: #5B2A8C;
+  margin-bottom: 0;
+}
+body header img {
+  max-width: 100%;
+  max-height: fit-content;
+  width: 100vw;
+  height: 30vw;
+  object-fit: cover;
+}
+body header nav {
+  margin-top: 0;
+  background-color: #A993BF;
+}
+body header nav ul {
+  background-color: inherit;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body header nav ul li {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+body header nav ul li:hover {
+  background-color: #5B2A8C;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin: 0;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+body header nav ul a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #1D1B59;
+}
+body header nav ul a:hover {
+  text-decoration: none;
+  color: #1D1B59;
+}
+body #universidades {
+  margin-left: auto;
+  margin-right: auto;
+}
