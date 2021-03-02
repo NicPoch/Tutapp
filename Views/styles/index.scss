@@ -6,23 +6,35 @@ $Logo-Gigapack-4-hex: #A993BF;
 $Logo-Gigapack-5-hex: #6A36D9;
 body
 {
+    display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: $Logo-Gigapack-5-hex;
     margin: 0;
     padding: 0;
     header
     {
+        text-align: center;
         display: inline-block;
         padding: 0 0 2vw 0;
         margin: 0 0 0.5vw 0;    
+        h1
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            background-color: $Logo-Gigapack-3-hex;
+            margin-bottom: 0;
+        }
         img
         {
+            max-width: 100%;
+            max-height: fit-content;
             width: 100vw;
             height: 30vw;
             object-fit: cover;
         }
         nav
         {
+            margin-top: 0;
             background-color:$Logo-Gigapack-4-hex;
             ul
             {
@@ -31,14 +43,20 @@ body
                 list-style: none;
                 li
                 {   
+                    padding-left: 3vw;
+                    padding-right: 3vw;
                     display: inline-block;
-                    padding: 0 2px 0 2px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: larger;
                 }
                 li:hover
                 {
-                    background-color: #9e9e9e;
-                    margin: 0;
-                    padding: 0;
+                    background-color: $Logo-Gigapack-3-hex;
+                    padding-left: 3vw;
+                    padding-right: 3vw;
+                    display: inline-block;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: larger;
                 }
                 a
                 {
@@ -52,16 +70,26 @@ body
     #main
     {
         display: inline-block;
-        margin: 0 5% 0 5%;
-        .row
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        #universidades
         {
-            align-items: center;
+            display: inline-block;
+            justify-content: center;
             text-align: center;
-            .carousel
-            {
-                max-width: 100%;
-
-            }
+            margin-left: 25%;
+            margin-right: 25%;
+            
+        }
+        #rowComentarios
+        {
+            display: inline-block;
+            padding-top: 5vw;
+            justify-content: center;
+            text-align: center;
+            margin-left: 25%;
+            margin-right: 25%;
+            
         }
     }
     #footer
