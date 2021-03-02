@@ -20,6 +20,30 @@
             "type": "shell",
             "command": "sass --no-source-map --watch ./Views/styles/clases.scss ./Views/styles/clases.css",
             "group": "build"
+        },
+        {
+            "label": "Sass Compiler4",
+            "type": "shell",
+            "command": "sass --no-source-map --watch ./Views/styles/contacto.scss ./Views/styles/contacto.css",
+            "group": "build"
+        },
+        {
+            "label": "Sass Compiler5",
+            "type": "shell",
+            "command": "sass --no-source-map --watch ./Views/styles/ingreso.scss ./Views/styles/ingreso.css",
+            "group": "build"
+        },
+        {
+            "label": "Sass Compiler6",
+            "type": "shell",
+            "command": "sass --no-source-map --watch ./Views/styles/registro.scss ./Views/styles/registro.css",
+            "group": "build"
+        },
+        {
+            "label": "Sass Compiler6",
+            "type": "shell",
+            "command": "sass --no-source-map --watch ./Views/styles/universidades.scss ./Views/styles/universidades.css",
+            "group": "build"
         }
     ]
 }
