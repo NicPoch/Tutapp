@@ -77,5 +77,25 @@ body
             }
         }
     }
-    
+    #carruselClases
+    {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+        .carousel
+        {
+            .carousel-inner
+            {
+                .carousel-item
+                {
+                    .card
+                    {
+                        width: 75%;
+                        background-color: #5B2A8C;
+                    }
+                }
+            }
+        }
+    }
 }

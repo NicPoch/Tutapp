@@ -64,3 +64,13 @@ body header nav ul a {
   font-size: 1.5em;
   color: #1D1B59;
 }
+body #carruselClases {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+}
+body #carruselClases .carousel .carousel-inner .carousel-item .card {
+  width: 75%;
+  background-color: #5B2A8C;
+}
