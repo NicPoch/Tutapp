@@ -8,6 +8,12 @@
             "type": "shell",
             "command": "sass --no-source-map --watch ./Views/styles/index.scss ./Views/styles/index.css",
             "group": "build"
+        },
+        {
+            "label": "Sass Compiler2",
+            "type": "shell",
+            "command": "sass --no-source-map --watch ./Views/styles/tutores.scss ./Views/styles/tutores.css",
+            "group": "build"
         }
     ]
 }

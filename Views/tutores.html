@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/tutores.css" type="text/css">
+        <title>Tutapp</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <header>
+                    <img src="../static/tutapp.png" alt="imagen de tutapp" id="CompImg">
+                    <h1>Que todo estudiante encuentre su tutor</h1>
+                    <nav class="navbar">
+                        <ul id="navbar-nav">
+                            <li class="nav-item">Tutores</li>
+                            <li class="nav-item">Clases</li>
+                            <li class="nav-item">Universidades</li>
+                            <li class="nav-item">Contacto</li>
+                            <li class="nav-item"> Registrarse</li>
+                            <li class="nav-item"> Ingresear</li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <div class="row">
+                <!--carrusel-->
+                <div id="tutores" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#tutores" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#tutores" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#tutores" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <cite>Frase cliché de tutor</cite>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <cite>Frase cliché de tutor</cite>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <cite>Frase cliché de tutor</cite>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#tutores"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#tutores"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="row" id="ranking">
+                <!--Ranking-->
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col"># de estudiantes</th>
+                        <th scope="col">Materias</th>
+                        <th scope="col">Puntaje</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>El Pepe</td>
+                        <td>10000</td>
+                        <td>PMC</td>
+                        <td>100</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>

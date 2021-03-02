@@ -1,7 +1,9 @@
 /* Color Theme Swatches in Hex */
 body {
+  width: 100%;
+  height: 100%;
   display: inline-block;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "didot" "helvetica";
   background-color: #6A36D9;
   margin: 0;
   padding: 0;
