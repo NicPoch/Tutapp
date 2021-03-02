@@ -5,6 +5,7 @@ body {
   background-color: #6A36D9;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 body header {
   text-align: center;
@@ -33,6 +34,8 @@ body header nav ul {
   background-color: inherit;
   width: 100%;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 body header nav ul li {
   padding-left: 3vw;
@@ -45,6 +48,7 @@ body header nav ul li:hover {
   background-color: #5B2A8C;
   padding-left: 3vw;
   padding-right: 3vw;
+  margin: 0;
   display: inline-block;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
@@ -87,6 +91,44 @@ body #main #comentarios {
   justify-content: center;
 }
 body #main #comentarios h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: inherit;
+}
+body #main #comentarios #comentariosCarousel {
+  display: inline-block;
+  font-size: larger;
+  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
+body #main #clases {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3vw;
+  justify-content: center;
+}
+body #main #clases h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: inherit;
+}
+body #footer {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3vw;
+  justify-content: center;
+}
+body #footer h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   margin: inherit;

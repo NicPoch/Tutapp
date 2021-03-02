@@ -11,6 +11,7 @@ body
     background-color: $Logo-Gigapack-5-hex;
     margin: 0;
     padding: 0;
+    justify-content: center;
     header
     {
         text-align: center;
@@ -41,6 +42,8 @@ body
                 background-color: inherit;
                 width: 100%;
                 list-style: none;
+                margin: 0;
+                padding: 0;
                 li
                 {   
                     padding-left: 3vw;
@@ -54,6 +57,7 @@ body
                     background-color: $Logo-Gigapack-3-hex;
                     padding-left: 3vw;
                     padding-right: 3vw;
+                    margin: 0;
                     display: inline-block;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-size: larger;
@@ -108,6 +112,50 @@ body
                 text-align: center;
                 margin: inherit;
             }
+            #comentariosCarousel
+            {
+                display: inline-block;
+                font-size: larger;
+                max-width: 100%;
+                text-align: center;
+                justify-content: center;
+                padding-bottom: 5vw;
+            }
+        }
+        #clases
+        {
+            text-align: center;
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 3vw;
+            justify-content: center;
+            h2
+            {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                margin: inherit;
+            }
+            
         }
     }
+    #footer
+    {
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 3vw;
+        justify-content: center;
+        h2
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin: inherit;
+        }
+    }    
 }
