@@ -1,0 +1,52 @@
+/* Color Theme Swatches in Hex */
+$Logo-Gigapack-1-hex: #8836BF;
+$Logo-Gigapack-2-hex: #762EA6;
+$Logo-Gigapack-3-hex: #5B2A8C;
+$Logo-Gigapack-4-hex: #A993BF;
+$Logo-Gigapack-5-hex: #6A36D9;
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: $Logo-Gigapack-5-hex;
+    margin: 0;
+    padding: 0;
+    header
+    {
+        display: inline-block;
+        padding: 0 0 2vw 0;
+        margin: 0 0 0.5vw 0;    
+        img
+        {
+            width: 100vw;
+            height: 30vw;
+            object-fit: cover;
+        }
+        nav
+        {
+            background-color:$Logo-Gigapack-4-hex;
+            ul
+            {
+                background-color: inherit;
+                width: 100%;
+                list-style: none;
+                li
+                {   
+                    display: inline-block;
+                    padding: 0 2px 0 2px;
+                }
+                li:hover
+                {
+                    background-color: #9e9e9e;
+                    margin: 0;
+                    padding: 0;
+                }
+                a
+                {
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: #1D1B59;
+                }
+            }
+        }
+    }
+}
