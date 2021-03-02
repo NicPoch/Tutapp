@@ -5,17 +5,17 @@ body {
   display: inline-block;
   font-family: "didot" "helvetica";
   background-color: #6A36D9;
-  margin-left: 0;
-  margin-right: 0;
-  padding-right: 0;
-  padding-left: 0;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 body header {
   text-align: center;
   display: inline-block;
   padding: 0 0 2vw 0;
-  margin: 0 0 0.5vw 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5vw;
 }
 body header h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -62,12 +62,32 @@ body header nav ul a {
   font-size: 1.5em;
   color: #1D1B59;
 }
+body header nav ul a:hover {
+  text-decoration: none;
+  color: #1D1B59;
+}
 body #tutores {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
   text-align: center;
-  justify-content: center;
-  justify-self: center;
+}
+body #tutores .carousel-item {
+  margin-left: auto;
+  margin-left: auto;
+  text-align: center;
+}
+body #tutores .carousel-item img {
+  height: 20vw;
+  width: 10vw;
 }
 body #ranking {
   margin-top: 2vw;
+  margin-left: auto;
+  margin-left: auto;
+  display: block;
   background-color: #5B2A8C;
+}
+body #ranking h2 {
+  text-align: center;
 }

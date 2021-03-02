@@ -11,17 +11,17 @@ body
     display: inline-block;
     font-family: "didot" "helvetica";
     background-color: $Logo-Gigapack-5-hex;
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-    padding-left: 0;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
     header
     {
         text-align: center;
         display: inline-block;
         padding: 0 0 2vw 0;
-        margin: 0 0 0.5vw 0;    
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:0.5vw;    
         h1
         {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -72,18 +72,42 @@ body
                     font-size: 1.5em;
                     color: #1D1B59;
                 }
+                a:hover
+                {
+                    text-decoration: none;
+                    color: #1D1B59;
+                }
             }
         }
     }
     #tutores
     {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
         text-align: center;
-        justify-content: center;
-        justify-self: center;
+        .carousel-item
+        {
+            margin-left: auto;
+            margin-left: auto;
+            text-align: center;
+            img
+            {
+                height: 20vw;
+                width: 10vw;
+            }
+        }
     }
     #ranking
     {
         margin-top: 2vw;
+        margin-left: auto;
+        margin-left: auto;
+        display: block;
         background-color: $Logo-Gigapack-3-hex;
+        h2
+        {
+            text-align: center;
+        }
     }
 }
