@@ -60,6 +60,10 @@ body header nav ul a {
   font-size: 1.5em;
   color: #1D1B59;
 }
+body header nav ul a:hover {
+  text-decoration: none;
+  color: #1D1B59;
+}
 body #main {
   display: inline-block;
   padding-top: 5vw;
